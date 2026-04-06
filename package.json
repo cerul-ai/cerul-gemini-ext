@@ -1,0 +1,13 @@
+{
+  "name": "cerul-gemini-extension",
+  "version": "1.0.0",
+  "description": "Cerul video search extension for Gemini CLI",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/mcp-server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "license": "MIT"
+}

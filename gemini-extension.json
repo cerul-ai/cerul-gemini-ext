@@ -1,0 +1,31 @@
+{
+  "name": "cerul",
+  "version": "1.0.0",
+  "description": "Video search for AI agents — search what was said, shown, or presented in tech talks, podcasts, conferences, and earnings calls.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "cerul": {
+      "command": "node",
+      "args": ["${extensionPath}/scripts/mcp-server.mjs"],
+      "cwd": "${extensionPath}",
+      "env": {
+        "CERUL_API_KEY": "${CERUL_API_KEY}",
+        "CERUL_API_URL": "${CERUL_API_URL}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "API Key",
+      "description": "Your Cerul API key — get one free at https://cerul.ai/dashboard",
+      "envVar": "CERUL_API_KEY",
+      "sensitive": true
+    },
+    {
+      "name": "API URL",
+      "description": "Cerul API endpoint",
+      "envVar": "CERUL_API_URL",
+      "default": "https://api.cerul.ai"
+    }
+  ]
+}
