@@ -48,8 +48,9 @@ function formatResults(data) {
         ? `${formatTimestamp(r.timestamp_start)}-${formatTimestamp(r.timestamp_end)}`
         : "";
     lines.push(`## [${i + 1}] ${r.title}`);
+    const published = r.published_at ? ` | Published: ${new Date(r.published_at).toISOString().split("T")[0]}` : "";
     lines.push(
-      `- Score: ${Math.round((r.score ?? 0) * 100)}%${time ? ` | Time: ${time}` : ""}${r.speaker ? ` | Speaker: ${r.speaker}` : ""} | Source: ${r.source}`
+      `- Score: ${Math.round((r.score ?? 0) * 100)}%${time ? ` | Time: ${time}` : ""}${r.speaker ? ` | Speaker: ${r.speaker}` : ""}${published} | Source: ${r.source}`
     );
     lines.push(`- URL: ${r.url}`);
     if (r.transcript) {
