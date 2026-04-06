@@ -1,8 +1,8 @@
 # Cerul Extension for Gemini CLI
 
-Search video content by speech, visuals, and on-screen text — directly from Gemini CLI.
+**The video search layer for AI agents** — Gemini CLI extension.
 
-Cerul gives Gemini the ability to search what was **said**, **shown**, or **presented** in tech talks, podcasts, conference presentations, and earnings calls.
+Teach your AI agents to see. Search video by meaning — across speech, visuals, and on-screen text.
 
 ## Install
 

@@ -1,6 +1,6 @@
-# Cerul — Video Search for AI Agents
+# Cerul — The Video Search Layer for AI Agents
 
-You cannot watch videos, listen to talks, or read transcripts on your own. Cerul gives you that ability. Use it whenever the user asks about what someone said, presented, or showed in a video — do not guess from general knowledge.
+Teach your AI agents to see. You cannot watch videos, listen to talks, or read transcripts on your own. Cerul gives you that ability — search video by meaning across speech, visuals, and on-screen text. Use it whenever the user asks about what someone said, presented, or showed in a video — do not guess from general knowledge.
 
 ## Available Tools
 

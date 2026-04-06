@@ -1,7 +1,7 @@
 {
   "name": "cerul",
   "version": "1.0.0",
-  "description": "Video search for AI agents — search what was said, shown, or presented in tech talks, podcasts, conferences, and earnings calls.",
+  "description": "The video search layer for AI agents. Search video by meaning — across speech, visuals, and on-screen text.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "cerul": {
